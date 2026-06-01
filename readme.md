@@ -1,6 +1,6 @@
 # 🍳 Cloud Kitchen Demand Forecaster
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-forcaster.streamlit.app/)
+[[Streamlit App]](https://ai-forcaster.streamlit.app/)
 
 ## 📌 The Business Problem
 In the high volume cloud kitchen industry (especially in tech hubs like Bangalore), predicting inventory is a constant battle. Prep too little, and you lose revenue to stockouts during a dinner rush. Prep too much, and profits are eaten alive by food waste. 
