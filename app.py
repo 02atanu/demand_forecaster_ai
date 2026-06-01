@@ -31,7 +31,7 @@ with col1:
     # Dropdown for the item
     selected_item = st.selectbox(
         "Menu Item",
-        ["Chicken Biryani", "Chicken Bharta", "Paneer Butter Masala", "Rumali Roti", "Cold Drink"]
+        ['Biriyani', 'Aloo Paratha', 'Chicken Bharta', 'Fish Finger', 'Momo', 'Cold Drink']
     )
     
     # Dropdown for the weather
@@ -75,7 +75,7 @@ if st.button("Predict Demand", type="primary"):
         st.success("Prediction Complete!")
         st.metric(
             label=f"Predicted Demand for {selected_item}", 
-            value=f"{final_demand} Portions"
+            value=f"{final_demand} Quantity"
         )
         
         st.caption(f"Scenario: {selected_weather} | Hour: {selected_hour}:00 | {is_weekend_toggle}")
