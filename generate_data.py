@@ -12,7 +12,7 @@ menu_itmes = {'Biriyani': 260,
               'Cold Drink': 60}
 
 # Creating list for weather conditions and locations
-weather_conditions = ['Sunny', 'Clear', 'Overcsat', 'Raining']
+weather_conditions = ['Sunny', 'Clear', 'Overcast', 'Raining']
 locations = ['Koramangala', 'HSR Layout', 'Indraninagar', 'Whitefield']
 
 start_date = datetime.now() - timedelta(days=90) #Creating a startng point for our data
