@@ -21,13 +21,13 @@ data = [] #Initialized the emptly list that'll eventually hold all the order dic
 
 counter_order_id = 100001
 
-for day_offset in range(90):
+for day_offset in range(120):
     current_date = start_date + timedelta(days=day_offset)
     is_weekend = 1 if current_date.weekday() >= 5 else 0
 
     #Generating weather and volume patterns
     daily_weather = random.choices(weather_conditions, weights = [40, 30, 20, 10])[0] #Gets random weather conditiona and outputs the string value dur to the 0 index in the end
-    base_orders = random.randint(150, 300) if is_weekend else random.randint(80, 150) #Generates random base order count for weekends and weekdays
+    base_orders = random.randint(180, 300) if is_weekend else random.randint(80, 150) #Generates random base order count for weekends and weekdays
 
     if daily_weather == 'Raining': #if the weather is rainy we increase the order count by 40%
         base_orders = int(base_orders * 1.4)

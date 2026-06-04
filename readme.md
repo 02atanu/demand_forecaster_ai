@@ -1,4 +1,4 @@
-# 🍳 Cloud Kitchen Demand Forecaster
+# 🍜 Cloud Kitchen Demand Forecaster
 
 [[Streamlit App] <-- Click Here!](https://ai-forcaster.streamlit.app/)
 
