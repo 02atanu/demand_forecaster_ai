@@ -96,5 +96,6 @@ print('Model ready for deployment...')
 joblib.dump(model_pipeline, 'cloud_kitchen_model.pkl')
 
 print('Success the model is saved successfully!')
+print('test-repo-push')
 
 
